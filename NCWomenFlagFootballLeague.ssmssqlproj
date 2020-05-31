@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="NCWomenFlagFootballLeague">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items />
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items />
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
+echo "# NCWomenFlagFootballLeague" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/DMcKenzie84/NCWomenFlagFootballLeague.git
+git push -u origin master
